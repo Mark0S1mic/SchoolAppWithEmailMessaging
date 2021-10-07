@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href =
+     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kreativna Ucionica</title>
+</head>
+<body>
+    
+<!-------------------Glavna Stranica-------------------------->
+
+
+<section class="header">
+
+    <nav>
+       <a href = "index.html"><img src = "siteImages/logo.png"></a>
+    
+        <div class="nav-links" id = "navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="about.html">O nama</a></li>
+                
+                <li><a href="gallery.html">Galerija</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+
+         
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class = "position">  
+        <h1>Dobrodošli u našu kreativnu učionicu</h1>
+                 <p>
+                     Mesto gde učimo,igramo se i rastemo zajedno!
+                 </p>
+             </div>
+</section>
+
+
+<!-------------------Aktivnostii-------------------------->
+
+<div class="background-course">
+
+<section class = "course">
+
+<h1>Aktivnosti koje nudimo</h1>
+    
+
+    <div class = "row">
+        
+        <div class = "course-services" id="Educate">
+            <h3>Edukativne radionice</h3>
+                
+        </div>
+
+        <div class = "course-services"id = "Piano">
+            <h3>Školica klavira</h3>
+                
+        </div>
+
+        <div class = "course-services" id = "Homework">
+            <h3>Pomoć u izradi domaćih zadataka</h3>
+             
+        </div>
+
+    </div>
+
+
+</section>
+</div>
+
+
+
+<!-------------------Tim-------------------------->
+
+<div class = "background-team">
+
+<section class = "team">
+
+<h1>Naš tim</h1>
+<p> </p>
+
+<div class="row">
+
+     <div class="team-member">
+         <img src="siteImages/user1.jpg">
+         <h2>Vanja Manojlović</h2>
+            <h3>Master razredne nastave</h3>
+     </div>
+
+     <div class="team-member">
+        <img src="siteImages/user2.jpg">
+        <h2>Dragoljub Manojlović</h2>
+            <h3>Diplomirani muzički pedagog</h3>
+    </div>
+
+    <div class="team-member">
+        <img src="siteImages/user2.jpg">
+        <h2>Zoran Ljubisić</h2>
+         <h3>Profesor fizičkog vaspitanja</h3>
+    </div>
+
+
+</div>
+
+
+
+</section>
+</div>
+
+<!-------------------Posaljite poruku-------------------------->
+
+<section class="contact" id ="signup">
+    <div class = "zaKontakt">
+   <h1>Upišite se! </h1>
+  
+   <div class="container">
+    <form action="https://formsubmit.co/simicmarko15@yahoo.com" method="POST">
+        <div class="specialRow">
+
+            <div class="input-group">
+                <input type="text" id="name" required>
+                <label for="name"><i class="fa fa-user"></i> Vaše ime</label>
+            </div>
+            <div class="input-group">
+                <input type="text" id="number" required>
+                <label for="number"><i class="fa fa-phone"></i> Telefon</label>
+            </div>
+
+        </div>
+        
+        <div class="input-group">
+            <input type="text" id="email" required>
+            <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
+        </div>
+        <div class="input-group">
+            <textarea id="message" rows="8" required></textarea>
+            <label for="message"><i class="fa fa-comments"></i> Poruka</label>
+        </div>
+        <button type="submit">Pošalji <i class="fa fa-paper-plane"></i></button>
+    </form>
+   
+</div>
+<p>Popunite svako polje!</p>
+
+
+</div>
+
+</section>
+
+<!-------------------Footer-------------------------->
+<section class="footer">
+    <h4>O nama</h4>
+        <p>U okviru školice ,,Zdravi i Fit Klinci" počinje sa radom Kreativna učionica. <br>
+            U našem centru deca proširuju stečena i stiču nova znanja
+             kroz kreativne radionice i edukativne igre. </p>
+             <div class="icons">
+
+                <a href ="https://www.facebook.com/Zdravi-i-Fit-Klinci-Kreativna-u%C4%8Dionica-249012227047252">
+                <i class="fa fa-facebook"> </i>  
+            </a>
+
+                <a href = "https://www.instagram.com/_kreativna_ucionica_/">
+                 <i class="fa fa-instagram"> </i>
+                </a>
+
+               
+             </div>
+             <p>Adresa : Oslobodjenja 5,Šabac</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------------------Kod za navbar na telefonu-------------------------->
+
+<script>
+
+
+
+var navLinks = document.getElementById("navLinks");
+
+
+function showMenu(){
+
+navLinks.style.right = "0";
+
+}
+
+function hideMenu(){
+
+navLinks.style.right = "-200px";
+
+}
+
+window.onscroll = function() {myFunction()};
+
+
+</script>
+
+</body>
+</html>

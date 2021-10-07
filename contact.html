@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href =
+     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kreativna Ucionica</title>
+</head>
+<body>
+    
+<!-------------------Glavna Stranica-------------------------->
+
+
+<section class="sub-header">
+
+    <nav>
+       <a href = "index.html"><img src = "siteImages/logo.png"></a>
+    
+        <div class="nav-links" id = "navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="about.html">O nama</a></li>
+                
+                <li><a href="gallery.html">Galerija</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+
+         
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>Kontakt</h1>
+    
+</section>
+<!------------------Contact----------------->
+
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1191.298118914737!2d19.686900447157218!3d44.75224831163584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475bcb027ca1c761%3A0xb9ff3b8d41c121c0!2z0J7RgdC70L7QsdC-0ZLQtdGa0LAgNSwg0KjQsNCx0LDRhg!5e0!3m2!1ssr!2srs!4v1632511456972!5m2!1ssr!2srs"
+     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+</section>
+
+<div class="background-contact">
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            
+            <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>Oslobodjenja 5,Šabac </h5>
+                    <p>Iznad marketa Gomex</p>
+            </span>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+381 063 492 128</h5>
+                        <p>Pozovite nas!</p>
+                </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+381 064 460 25 71</h5>
+                        <p>Pozovite nas!</p>
+                    </span>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+381 069 38 78 111</h5>
+                            <p>Pozovite nas!</p>
+                        </span>
+                        </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>ljubisicv@gmail.com</h5>
+                            <p>Javite nam se na nas mejl!</p>
+                    </span>
+                    </div>
+
+        </div>
+        <div class="contact-col">
+            
+            <form action="https://formsubmit.co/simicmarko15@yahoo.com" method="POST">
+
+                <input type="text" placeholder="Unesite ime" required>
+                <input type="email" placeholder="Unesite e-mail" required>
+                <input type="text" placeholder="Unesite br. telefona" required>
+                <textarea rows="8" placeholder="Poruka" required></textarea>
+                <button type="sumbit" class = "explore-btn">Pošalji</button>
+
+            </form>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+</section>
+</div>
+
+
+
+
+
+<!-------------------Footer-------------------------->
+
+<section class="footer">
+    <h4>O nama</h4>
+        <p>U okviru školice ,,Zdravi i Fit Klinci" počinje sa radom Kreativna učionica. <br>
+            U našem centru deca proširuju stečena i stiču nova znanja
+             kroz kreativne radionice i edukativne igre. </p>
+             <div class="icons">
+
+                <a href ="https://www.facebook.com/Zdravi-i-Fit-Klinci-Kreativna-u%C4%8Dionica-249012227047252">
+                <i class="fa fa-facebook"></i>  
+            </a>
+
+                <a href = "https://www.instagram.com/_kreativna_ucionica_/">
+                 <i class="fa fa-instagram"></i>
+                </a>
+
+               
+             </div>
+             <p>Adresa : Oslobodjenja 5,Šabac</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------------------Kod za navbar na telefonu-------------------------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+
+function showMenu(){
+
+navLinks.style.right = "0";
+
+}
+
+function hideMenu(){
+
+navLinks.style.right = "-200px";
+
+}
+
+
+</script>
+
+</body>
+</html>

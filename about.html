@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href =
+     "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Kreativna Ucionica</title>
+</head>
+<body>
+    
+<!-------------------Glavna Stranica-------------------------->
+
+
+<section class="sub-header">
+
+    <nav>
+       <a href = "index.html"><img src = "siteImages/logo.png"></a>
+    
+        <div class="nav-links" id = "navLinks">
+            <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Početna</a></li>
+                <li><a href="about.html">O nama</a></li>
+               
+                <li><a href="gallery.html">Galerija</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+
+         
+
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+        <h1>O nama</h1>
+    
+</section>
+<!------------------O nama_sadrzaj------------------->
+<div class = "background-about">
+<section class="about-us">
+        <div class="row">
+            
+                <div class="about-col" id=about-animation>
+                    <h1>Kreativna Učionica </h1>
+                        <p>U okviru školice ,,Zdravi i Fit Klinci" počinje sa radom Kreativna učionica.
+                             U našem centru deca proširuju
+                             stečena i stiču nova znanja kroz kreativne radionice i edukativne igre.
+                             Kreativna učionica pruza rad za decu uzrasta od 1. do 4.razreda.
+                            Nudimo bezbedan i čist ambijent,opremljenost nastavnim sredstvima,stručno osoblje
+                        i zajedno učenje kroz igru. </p>
+                        <h1>Cenovnik</h1>
+                        <p>Cena za jedan dan proveden u nasoj kreativnoj ucionici uključujući nase usluge iznosi 500 dinara</p>
+                        <h1>Radno vreme</h1>
+                        <p>Svaki radni dan od 9:00 do 12:00 prepodne i od 15:00 do 18:00 popodne</p>
+                              <a href="index.html" class = "explore-btn">Istraži jos</a>
+                </div>
+
+                <div class="about-col">
+                    <img src ="siteImages/aboutSlika.jpg">
+                </div>
+        </div>
+</section>
+</div>
+
+
+<!-------------------Footer-------------------------->
+
+<section class="footer">
+    <h4>O nama</h4>
+        <p>U okviru školice ,,Zdravi i Fit Klinci" počinje sa radom Kreativna učionica. <br>
+            U našem centru deca proširuju stečena i stiču nova znanja
+             kroz kreativne radionice i edukativne igre. </p>
+             <div class="icons">
+
+                <a href ="https://www.facebook.com/Zdravi-i-Fit-Klinci-Kreativna-u%C4%8Dionica-249012227047252">
+                <i class="fa fa-facebook"></i>  
+            </a>
+
+                <a href = "https://www.instagram.com/_kreativna_ucionica_/">
+                 <i class="fa fa-instagram"></i>
+                </a>
+
+               
+             </div>
+             <p>Adresa : Oslobodjenja 5,Šabac</p>
+</section>
+
+
+
+
+
+
+
+
+<!-------------------Kod za navbar na telefonu-------------------------->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+
+function showMenu(){
+
+navLinks.style.right = "0";
+
+}
+
+function hideMenu(){
+
+navLinks.style.right = "-200px";
+
+}
+
+
+</script>
+
+</body>
+</html>
