@@ -123,6 +123,12 @@
   
    <div class="container">
     <form action="https://formsubmit.co/01d30e9d17157bcb6581b1e6db178441" method="POST">
+        <!---Honeypot---->
+        <input type="text" name= "_honey" style="display: none;">
+
+        <!----Disable Captcha-->
+        <input type="hidden" name ="_captcha" value="false">
+
         <div class="specialRow">
 
             <div class="input-group">
@@ -137,7 +143,7 @@
         </div>
         
         <div class="input-group">
-            <input type="text" id="email" required name="phone">
+            <input type="text" id="email" required name="number">
             <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
         </div>
         <div class="input-group">

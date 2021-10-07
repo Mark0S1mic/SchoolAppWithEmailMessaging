@@ -88,7 +88,7 @@
                     <i class="fa fa-envelope"></i>
                     <span>
                         <h5>ljubisicv@gmail.com</h5>
-                            <p>Javite nam se na nas mejl!</p>
+                            <p>Javite nam se na mejl!</p>
                     </span>
                     </div>
 
@@ -96,11 +96,16 @@
         <div class="contact-col">
             
             <form action="https://formsubmit.co/01d30e9d17157bcb6581b1e6db178441" method="POST">
+                <!---Honeypot---->
+        <input type="text" name= "_honey" style="display: none;">
 
-                <input type="text" placeholder="Unesite ime" required>
-                <input type="email" placeholder="Unesite e-mail" required>
-                <input type="text" placeholder="Unesite br. telefona" required>
-                <textarea rows="8" placeholder="Poruka" required></textarea>
+          <!----Disable Captcha-->
+          <input type="hidden" name ="_captcha" value="false">
+
+                <input type="text" placeholder="Unesite ime" required name="Name">
+                <input type="email" placeholder="Unesite e-mail" required name="E-mail">
+                <input type="text" placeholder="Unesite br. telefona" required name="Phone">
+                <textarea rows="8" placeholder="Poruka" required name ="comments, questions"></textarea>
                 <button type="sumbit" class = "explore-btn">Pošalji</button>
 
             </form>
