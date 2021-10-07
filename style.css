@@ -619,6 +619,60 @@ border-bottom: 5px solid #8B4513;
     font-size: 20px;
     color: #fff;
 }
+
+/****SENT STRANICA******/
+
+#btnBack::before{
+    content: "";
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 45%;
+    margin: 20px auto 5px;
+}
+#btnBack::after{
+    content: "";
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 45%;
+    margin: 20px auto 5px;
+}
+
+#btnBack:hover{
+
+    color: wheat;
+    transition: 0s;
+
+}
+
+#btnBackLink{
+    text-decoration: none;
+    
+    
+}
+
+
+.sent-btn{
+    
+   
+    font-size: 16px;
+    border: 1px solid white;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    
+    
+    cursor: pointer;
+    padding:12px 34px;
+    border-radius: 20px;
+}
+.sent-btn:hover{
+    border:1px solid indigo;
+    background: indigo;
+    transition: 1s;
+}
+/****************kraj sent stranice*************/
 .explore-btn{
     display:inline-block;
     font-size: 13px;
